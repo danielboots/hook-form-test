@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Form from "../components/Form";
 
 export default function Home() {
   return (
@@ -21,6 +22,10 @@ export default function Home() {
             react hook form test
           </h3>
           <p className="text-sm text-center text-gray-500">css by tailwind</p>
+        </div>
+
+        <div>
+          <Form />
         </div>
       </main>
 
